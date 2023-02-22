@@ -28,7 +28,14 @@ function hidePanels() {
     }
 };
 
-
+// Function to Hide all shown Panels New (TEST)
+// Should be called manually on the browser console panel
+function hidePanelsTest() {
+    for (let i = 0; i < accPanel.length; i++) {
+        accPanel[i].style.maxHeight = null;
+        accHeading[i].classList.remove("active");
+    }
+};
 
 
 
